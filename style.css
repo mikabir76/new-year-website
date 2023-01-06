@@ -4,6 +4,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Banner area */
 .banner-image {
     background-image: url('images/banner/banner3.png');
     width: 100%;
@@ -35,13 +36,44 @@
 }
 
 .btn-area {
-    /* width: 160px;
-    height: 64px; */
     padding: 20px 25px;
     font-weight: 600;
     font-size: 28px;
     align-items: center;
-    border-radius:5px;
-    border:none;
+    border-radius: 5px;
+    border: none;
+}
 
+/* Section Styles */
+.section-area {
+    max-width: 1080px;
+    margin-top: 130px;
+
+}
+
+.image {
+    background-image: url('images/person.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.tittle-sub {
+    width: 400px;
+    text-align: left;
+    margin-left: 400px;
+
+}
+
+.section-tittle {
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #151414;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
 }
