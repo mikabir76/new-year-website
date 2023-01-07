@@ -158,19 +158,26 @@
 /* Footer Area */
 .footer-area {
     background-color: black;
-    width: 1600px;
+    width: 100%;
     height: 577px;
     margin: 0 auto;
     position: relative;
     margin-top: 200px;
     color: white;
-    display: flex;
+    
 
 }
 
 .footer-tittle-all {
-    width: 485px;
     
+    display:flex;
+    justify-content: space-around;
+    padding:50px;
+    
+    
+}
+.feture-area{
+    flex-grow: 1;
 }
 
 .footer-tittle {
@@ -194,7 +201,9 @@
     margin-bottom:15px;
 }
 .subscribe-area{
+    flex-grow: 1;
     text-align: left;
+    margin-right: 500px;
 }
 .input-email{
     padding:20px 70px;
